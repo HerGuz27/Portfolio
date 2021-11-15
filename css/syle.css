@@ -240,7 +240,7 @@ header .navbar ul li a:hover{
 
 }
 .contact .row .content{
-    flex: 1 1 30rem;
+    margin: 2rem;
     padding:4rem ;
     padding-bottom: 0;
 
@@ -281,6 +281,7 @@ width: 100%;
     padding: 1rem 0;
     font-weight: normal;
     text-transform: none;
+    margin-bottom: 2rem;
 }
 .contact .row .content .info h3 i{
     padding-right: 1rem;
@@ -288,6 +289,11 @@ width: 100%;
 }
 .contact .row form .box::placeholder{
     text-transform: capitalize;
+}
+.contact .row .contact .info a{
+    padding: 2rem;
+    color: #000;
+    background-color: aqua;
 }
 @media(max-width:1200px){
     html{
